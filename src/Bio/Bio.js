@@ -14,7 +14,7 @@ const Bio = (props) => {
     ];
     return (
        <div className='TextType'>
-       <NavBar links={ navType }/>
+       <NavBar name={2} links={ navType }/>
        <p>Just some more text to test with</p>
        </div>
     );
